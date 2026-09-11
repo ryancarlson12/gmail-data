@@ -3,8 +3,6 @@
 export DH_GOLANG_EXCLUDES := vendor
 export GOFLAGS := -mod=vendor
 
-export CGO_CFLAGS := -I/usr/include/x86_64-linux-gnu
-
 %:
 	dh $@ --buildsystem=golang
 
