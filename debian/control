@@ -1,0 +1,15 @@
+Source: gmail-data
+Section: utils
+Priority: optional
+Maintainer: Ryan Carlson <ryan.carlson@canonical.com>
+Build-depends: debhelper-compat (= 13),
+                dh-golang,
+                golang-any
+Standards-Version: 4.6.2
+XS-Go-Import-Path: github.com/ryancarlson12/gmail-data
+
+Package: gmail-data
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, curl
+Description: Gmail information and organization CLI utility
+    This tool uses the Google API to query the user's gmail account for information such as user profile, unread emails, and drafts. It is also intended as an organizational tool to help delete/filter/label emails. 

@@ -1,0 +1,4 @@
+# Go binaries are statically linked by design
+gmail-data: statically-linked-binary
+# Will add man page later
+gmail-data: no-manual-page

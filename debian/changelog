@@ -1,0 +1,17 @@
+gmail-data (1.0~resolute3) resolute; urgency=medium
+
+  * Triggering rebuild
+
+ -- Ryan Carlson <ryan.carlson@canonical.com>  Fri, 11 Sep 2026 13:13:46 -0600
+
+gmail-data (1.0~resolute2) resolute; urgency=medium
+
+  * Specify include path for x86_64 (Attempting to create a ftbfs on launchpad for testing purposes)
+
+ -- Ryan Carlson <ryan.carlson@canonical.com>  Fri, 11 Sep 2026 12:03:26 -0600
+
+gmail-data (1.0~resolute1) resolute; urgency=medium
+
+  * Initial release.
+
+ -- Ryan Carlson <ryan.carlson@canonical.com>  Fri, 11 Sep 2026 10:40:17 -0600
